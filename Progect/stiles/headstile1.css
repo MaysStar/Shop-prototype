@@ -1,0 +1,297 @@
+@keyframes myAnim {
+	0% {
+		background-position: left center;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: left center;
+		background-size: 150%;
+	}
+}
+body{
+	margin: 0;
+	padding: 0;
+	/*background: linear-gradient(90deg, #00B92E 0%, #D619FF 100%);*/
+	font-family: 'Josefin Sans', sans-serif;
+    background: url(https://phonoteka.org/uploads/posts/2021-04/1619063237_2-phonoteka_org-p-futuristicheskii-fon-dlya-prezentatsii-2.jpg 
+    	)
+
+    
+
+}
+    
+
+
+.blokchess{
+    display: flex;
+	background-color: black;
+    }
+	
+.navbar{ 
+	display: flex;
+	justify-content: center;
+}
+.navbar a {
+	display:inline;
+	padding: 1em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.blokchess:hover {
+    background: linear-gradient(29deg, #004C8A 0%, #5E0073 100%);
+    color: black;
+
+}
+.navbar a:hover{
+	background: #292929;
+	color: #fff;
+}
+.conteiner{
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+}   
+.leftbar{
+	grid-column: 1/5
+	background-color: red;
+}
+.content{
+	grid-column: 5/19}
+.raghtbar{
+	grid-column: 18/21
+}
+
+
+.spoh{
+	margin-top: 4rem;
+	display:block;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+	border-style: solid;
+    border-width: 0.5px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.content a{
+     color: green;
+}
+#dgscert{
+    position: relative;right: 50px;
+}
+.set{
+	position: absolute;
+}
+#dgscert{
+	margin-top: 70px;
+	padding: 20px;
+	display: flex;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: black;
+	background: black;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	width: 100%;
+	height: 100px;
+	font-size: 17px; 
+}
+#dgscert:hover{
+    background: linear-gradient(29deg, #004C8A 0%, #5E0073 100%);
+  /*  grid-row: 1/2;*/
+}
+
+.groddd{
+	display: inline-block;
+	margin-top: : 15px;
+	margin-top: 50px;
+
+
+
+}
+
+ 
+}
+.dddddd{
+	display: block;
+	margin: 30px;
+	position: relative; bottom: 100%
+}
+.ssss img{
+     margin: 20px;
+     grid-column: 3/4;
+}
+.ssss p{
+	grid-column: 1/2;
+}
+.ssss ul{
+	grid-column: 2/3;
+}
+.dddddddddd{
+	display: inline-block;
+	width: 200px;
+
+}
+.yyyy{
+	margin-left: 100px;
+	display: inline-block;
+	width: 200px;
+}
+.eeee{
+	margin-left: 250px;
+	display: inline-block;
+	width: 120px;
+}
+.dddddddddd p{
+	border-width: 1px;
+	border-style: solid;
+	border-color: green;
+}
+.spoh img{
+	width: 200px;
+	height: 200px;}
+.spoh{
+	background: #fff;
+} 
+
+}	
+.ryteg{
+
+}  
+.ereuyfke{
+}
+#sssss{
+    grid-row: 5/6;
+}
+.terwyycsag {
+      overflow: hidden; 
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+}
+.footer{
+	margin-top: auto;
+	width: 100%;
+}
+.footer{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+
+}
+.yyyy 
+.eeeeee 
+.fffffff{
+	display: inline-block;
+}
+.eeeeee{
+	grid-column: 1/4 ;
+	grid-row: 3/4;
+}
+.fffffff{
+	grid-column: 10/13;
+	grid-row: 3/4;
+}
+.yyyy{
+	grid-column: 4/10;
+	grid-row: 3/4;
+}
+.eeeeee{
+	margin-left: 30px;
+}
+.yyyy{
+	margin-left: 200px;
+}
+.tyuie{
+	display: none;
+	width: 200px;
+	height: 145px;
+	z-index: 2;
+}
+.rereret{
+	cursor: pointer;
+}
+.grixol{
+position: relative;right: 370px;
+height: 50px;
+}
+.grixol:hover .tyuie{
+
+	background: linear-gradient(150deg, #004C8A 0%, #5E0073 100%);
+    display: block;
+    position: absolute;
+
+}
+.ewesew{
+	display: block;
+}
+
+}
+
+.renked{
+
+width: 250px;
+ height: 44px;
+}
+.ewesew{
+	position: relative;left:   145%;
+}
+
+.tyuie{
+	position: absolute; top : 50px;
+}
+.p1{
+	position: relative;top: 14px;
+}
+.p2{
+	position: relative;top: 45px;
+}
+.p3{
+	position: relative;top: 75px;
+}
+#button{
+	animation: color-change 20s infinite; /* запускаємо анімацію */
+    background: #fff;
+}
+@keyframes color-change {
+  
+  0%{
+  	background-color: #9400D3;
+  }
+  15%{
+  	background-color: #9932CC;
+  }
+  30% {
+    background-color: #FF00FF; 
+  }
+  40% {
+    background-color: #DA70D6;
+  }
+  55% {
+    background-color: #00BFFF; 
+  }
+  70% {
+    background-color: #1E90FF; 
+  }
+  85% {
+    background-color: #0000FF; 
+  }
+  100% {
+    background-color: #800080; /* початковий колір */
+  }
+}
+#Gopstop{
+	background: #DAA520;
+	height: 300px;
+}
+.ammartal{
+	height: 200px;
+	width: 100%;
+}
+#imput{
+	outline: none;
+	font-size: 13px;
+}
